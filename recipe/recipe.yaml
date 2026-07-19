@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.1.1
+  version: "0.2.3"
 
 package:
   name: lsp-tree-sitter
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/lsp-tree-sitter/lsp_tree_sitter-${{ version }}.tar.gz
-  sha256: 1668dd456e5669e9d6e102b2dd46952fd39d19573c19b8c985446e272d59128c
+  sha256: aaa5445a41c7926c50fae15827f2dcaae838fa585da045c7b2644bff99bf5df0
 
 build:
   number: 0
